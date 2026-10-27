@@ -18,6 +18,37 @@
                 <p id="saldoTotal" class="saldo-valor">R$ 0,00</p>
             </section>
 
+            <!-- Formulário de Entrada de lançamentos -->
+            <section class="formulario">
+                <h2>Novo Lançamento</h2>
+
+                <form id="formLancamento">
+                    <div class="Campos">
+                        <label for="Tipo">Tipo:</label>
+                        <select id="Tipo" required>
+                            <option value="receita">(+) Receita</option>
+                            <option value="despesa">(-) Despesa</option>
+                        </select>
+                    </div>
+
+                    <div class="Campos">
+                        <label for="Categoria">Categoria:</label>
+                        <input type="text" id="Categoria" placeholder="EX: Salário,Alimentação, Transporte, etc." required>
+                    </div>
+
+                    <div class="Campos">
+                        <label for="Data">Data:</label>
+                        <input type="date" id="Data" required>
+                    </div>
+
+                    <div class="Campos">
+                        <label for="Valor">Valor (R$):</label>
+                        <input type="number" id="Valor" step="0.01" min="0.01" placeholder="0,00" required>
+                    </div>
+
+                    <button type="submit" id="btnAdicionar">Adicionar Lançamento</button>
+                </form>
+            </section>
         </main>
     </body>
     
