@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
 header {
     background-color: #040153;
     color: #ffffff;
@@ -27,3 +34,9 @@ main {
     gap: 1.5rem;
 }
 
+.saldo, .formulario, .resultados {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 1.25rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
