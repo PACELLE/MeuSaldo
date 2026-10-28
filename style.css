@@ -40,3 +40,14 @@ main {
     padding: 1.25rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+.saldo {
+    text-align: center;
+}
+
+.saldo-valor {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    color: #27ae60;
+}
