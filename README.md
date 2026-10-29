@@ -4,24 +4,24 @@ Aplicação web simples desenvolvida para a atividade prática da disciplina de 
 
 ---
 
-## 📌 Sobre o App
+## Sobre o App
 
 O **MeuSaldo** ajuda o usuário no dia a dia a anotar e acompanhar as suas despesas e receitas. Com uma interface limpa e intuitiva, o app calcula e atualiza automaticamente o saldo total da carteira em tempo real.
 
-### ⚙️ Funcionalidades (O que faz)
+### Funcionalidades (O que faz)
 - Adiciona novos lançamentos informando Tipo (Receita ou Despesa), Descrição/Categoria, Data e Valor.
 - Recalcula o saldo total instantaneamente a cada transação ou remoção.
 - Mantém o histórico salvo no navegador utilizando `localStorage`.
 - Validação contra entradas vazias ou valores inválidos sem travar a aplicação.
 
-### 🚫 Limitações (O que não faz)
+### Limitações (O que não faz)
 - Não realiza autenticação/login de utilizadores.
 - Não gera gráficos estatísticos nem relatórios em PDF.
 - Não faz sincronização em nuvem entre aparelhos diferentes.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **HTML5**: Estrutura semântica (`header`, `main`, `section`, `footer`, `label`).
 - **CSS3**: Estilização responsiva (compatível com telemóvel e computador).
@@ -30,7 +30,7 @@ O **MeuSaldo** ajuda o usuário no dia a dia a anotar e acompanhar as suas despe
 
 ---
 
-## 🚀 Como Rodar o Projeto
+## Como Rodar o Projeto
 
 1. Clone este repositório para o seu computador:
    ```bash
@@ -50,16 +50,16 @@ O **MeuSaldo** ajuda o usuário no dia a dia a anotar e acompanhar as suas despe
 
 ---
 
-## 🌐 Análise de Rede (Aba Network do Navegador)
+## Análise de Rede (Aba Network do Navegador)
 
 ![Captura de Ecrã da Aba Rede](print-rede.png)
 
 > **Explicação da Imagem:**
-> A captura de ecrã acima mostra a inspeção de rede (F12 > Network) durante o carregamento local do app via `http://localhost:8000/`. É possível observar a requisição inicial `GET` solicitando o documento `index.html`, retornando o código de status HTTP **200 OK**, confirmando que o recurso foi encontrado e transferido com sucesso pelo servidor local sem erros de rota.
+> A captura de ecrã acima mostra a inspeção de rede (F12 > Network) durante o carregamento local do app via Live Server.
 
 ---
 
-## 🤖 Declaração de Uso de IA
+## Declaração de Uso de IA
 
 - **Ferramenta de IA utilizada:** Gemini (Google).
 - **O que foi solicitado:** A cada passo da aplicação foi utilizado o auxílio da ferramenta para avaliar, validar e ajustar o código conforme ideias de implementação.
@@ -68,5 +68,4 @@ O **MeuSaldo** ajuda o usuário no dia a dia a anotar e acompanhar as suas despe
 ---
 
 **Autor:** Pacelle Henrique Parnaíba Sobral 
-**Matrícula:** [Sua Matrícula]  
 **Curso:** Engenharia da Computação - UFMA  
