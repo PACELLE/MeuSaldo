@@ -55,7 +55,7 @@ O **MeuSaldo** ajuda o usuário no dia a dia a anotar e acompanhar as suas despe
 ![Captura de Ecrã da Aba Rede](print-rede.png)
 
 > **Explicação da Imagem:**
-> A captura de ecrã acima mostra a inspeção de rede (F12 > Network) durante o carregamento local do app via Live Server.
+> A captura de ecrã acima mostra a inspeção de rede (F12 > Network) durante o carregamento local do app via `Live Server`.
 
 ---
 
