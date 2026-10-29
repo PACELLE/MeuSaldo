@@ -62,7 +62,7 @@ O **MeuSaldo** ajuda o usuário no dia a dia a anotar e acompanhar as suas despe
 ## Declaração de Uso de IA
 
 - **Ferramenta de IA utilizada:** Gemini (Google).
-- **O que foi solicitado:** A cada passo da aplicação foi utilizado o auxílio da ferramenta para avaliar, validar e ajustar o código conforme ideias de implementação.
+- **O que foi solicitado:** Ferramenta utilizada para avaliar, validar e ajustar o código conforme ideias de implementação.
 - **O que foi ajustado/alterado:** A organização das funções, tratamento de validação de formulários e a adição de regras do `localStorage`.
 
 ---
