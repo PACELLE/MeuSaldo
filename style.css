@@ -69,3 +69,19 @@ main {
     border-radius: 4px;
     font-size: 1rem;
 }
+
+button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #219150;
+}
