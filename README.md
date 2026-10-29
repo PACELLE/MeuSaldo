@@ -68,4 +68,5 @@ O **MeuSaldo** ajuda o usuário no dia a dia a anotar e acompanhar as suas despe
 ---
 
 **Autor:** Pacelle Henrique Parnaíba Sobral 
+
 **Curso:** Engenharia da Computação - UFMA  
